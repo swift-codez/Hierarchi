@@ -1,0 +1,19 @@
+.down{
+    width: 2px;
+    height: 40px;
+    background-color: black;
+    
+}
+.side{
+    width: 600px;
+    height: 2px;
+    background-color: black;
+    
+}
+
+.p1{
+    display: inline-block;
+}
+#p1c1{
+    margin: 50px 10px 0px 60px;
+}
