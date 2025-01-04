@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #444;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.8em;
+    color: #666;
+}
+
+/* Navbar Placeholder */
+#navbar {
+    height: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2em;
+}
+
+/* Vithoba Section */
+#vithoba {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#vithoba img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #888;
+}
+
+#vithoba a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+#vithoba a:hover {
+    color: #0056b3;
+}
+
+/* Family Members Section */
+#family-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.totaramkids {
+    display: inline-block;
+    width: 20%;
+    margin: 1%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}    
+    
+.totaramkids a {
+    justify-content: center;
+}
+
+
+.totaramkids img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+#totaramset{
+    margin-left: 60px;
+}

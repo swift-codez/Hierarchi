@@ -3,47 +3,45 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f9f9f9;
+    background-color: #f0f8ff;
 }
 
 h1 {
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0;
     color: #333;
 }
 
 #navbar {
     height: 50px;
-    background-color: #4CAF50;
+    background-color: #0056b3;
 }
 
 #vithoba {
     margin: 20px auto;
     padding: 10px;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    width: 80%;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
 }
 
-#vithoba img {
-    display: block;
-    width: 400px;
-    margin: 0 auto;
-    border-radius: 10px;
+#vithobaimg {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #888;
 }
 
 #vithoba a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #0056b3;
     font-size: 20px;
     font-weight: bold;
 }
 
 .vithobakid {
     display: inline-block;
-    width: 45%;
+    width: 20%;
     margin: 20px 2%;
     padding: 10px;
     text-align: center;
@@ -54,7 +52,7 @@ h1 {
 }
 
 .vithobakid img {
-    width: 100%;
+    width: 300px;
     border-radius: 10px;
 }
 
@@ -65,8 +63,19 @@ h1 {
     font-weight: bold;
 }
 
+#vithkid2{
+    margin-left: 325px;
+}
+
+#vithkid1{
+    margin-left: 255px;
+}
+
+
+
+
 @media screen and (max-width: 768px) {
-    #vithoba img {
+    #vithobaimg {
         width: 300px;
     }
 

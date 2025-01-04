@@ -1,3 +1,7 @@
+body{
+    background-color: aqua;
+}
+
 .down{
     width: 2px;
     height: 40px;
@@ -11,24 +15,11 @@
     
 }
 
-
-.p1{
+.vithobakid{
     display: inline-block;
+    padding-top: 40px;
 }
-.p1c{
-    padding:20px 20px 20px 20px ; 
-    display: inline-block;
-    border:3px solid black;
-}
-#p1c1{
-    margin: 50px 10px 0px 60px;
+#vithkid2{
+    margin-left: 60%;
 }
 
-#p1c2{
-    align: right;
-    margin: 50px 60px 0px 240px;
-    
-}
-body{
-    background-color: aqua;
-}
