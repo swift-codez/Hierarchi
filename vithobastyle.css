@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+#navbar {
+    height: 50px;
+    background-color: #4CAF50;
+}
+
+#vithoba {
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#vithoba img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#vithoba a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vithobakid {
+    display: inline-block;
+    width: 45%;
+    margin: 20px 2%;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vithobakid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.vithobakid a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    #vithoba img {
+        width: 300px;
+    }
+
+    .vithobakid {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
