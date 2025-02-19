@@ -1,33 +1,53 @@
-body {
-    font-family: Arial, sans-serif;
+/* body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    height: 6vmin;
+    background-color: #0056b3;
 }
 
 h1 {
     text-align: center;
-    margin: 20px 0;
-    color: #333;
+    margin:2vh;
+    color: #1b1b1b;
 }
 
-#navbar {
-    height: 50px;
-    background-color: #0056b3;
+.container {
+
+    height: 80vh;
+}
+.vithobaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.childrenContainer {
+
+    height: 45vmin;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50vh;
 }
 
 #vithoba {
-    margin: 20px auto;
-    padding: 10px;
-    width: 400px;
+
+    height: 40vh;
     text-align: center;
 }
 
 #vithobaimg {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+
+    border-radius: 50vmin;
+    width: 30vmin;
+    height: 30vmin ;
     object-fit: cover;
     border: 5px solid #888;
 }
@@ -41,8 +61,8 @@ h1 {
 
 .vithobakid {
     display: inline-block;
-    width: 20%;
-    margin: 20px 2%;
+    height: 40vmin;
+    width: 25vmin;
     padding: 10px;
     text-align: center;
     border: 2px solid #ddd;
@@ -52,8 +72,9 @@ h1 {
 }
 
 .vithobakid img {
-    width: 300px;
-    border-radius: 10px;
+    height: 35vmin;
+    width: 25vmin;
+    border-radius: 2vh;
 }
 
 .vithobakid a {
@@ -62,17 +83,6 @@ h1 {
     font-size: 18px;
     font-weight: bold;
 }
-
-#vithkid2{
-    margin-left: 325px;
-}
-
-#vithkid1{
-    margin-left: 255px;
-}
-
-
-
 
 @media screen and (max-width: 768px) {
     #vithobaimg {
@@ -84,3 +94,259 @@ h1 {
         margin: 10px auto;
     }
 }
+
+
+
+.hide {
+
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hide {
+
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    height: 6vmin;
+    background-color: #0056b3;
+}
+
+h1 {
+    text-align: center;
+    margin: 2vh;
+    color: #1b1b1b;
+}
+
+.container {
+    height: 80vh;
+}
+
+.vithobaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.childrenContainer {
+    height: 45vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50vh;
+}
+
+#vithoba {
+    height: 40vh;
+    text-align: center;
+}
+
+#vithobaimg {
+    border-radius: 50vmin;
+    width: 30vmin;
+    height: 30vmin;
+    object-fit: cover;
+    border: 5px solid #888;
+}
+
+#vithoba a {
+    text-decoration: none;
+    color: #0056b3;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ✅ Style for Totaram Section */
+/* .totaramSetContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: auto;
+}
+
+.totaramkids {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.totaramkids:hover {
+    transform: scale(1.05);
+}
+
+.totaramkids img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #0056b3;
+    object-fit: cover;
+}
+
+.totaramkids a {
+    text-decoration: none;
+    color: #0056b3;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* ✅ Styling for the hidden class */
+/* .hide {
+    display: none;
+}
+
+/* ✅ Button styling */
+/* .aOfTotaram { */
+    /* padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.aOfTotaram:hover {
+    background-color: #004494;
+} */
+
+/* ✅ Responsive Design */
+/* @media screen and (max-width: 768px) { */
+    /* .childrenContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .totaramSetContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .totaramkids img {
+        width: 150px;
+        height: 150px;
+    }
+} */
+
+
+
+
+
+
+
+
+.totaramSetContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Style each child in one line */
+.totaramkids {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 12vmin; /* Adjusted size */
+    height: auto;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.totaramkids:hover {
+    transform: scale(1.05);
+}
+
+/* Make images smaller to fit in a row */
+.totaramkids img {
+    width: 10vmin;
+    height: 10vmin;
+    border-radius: 50%;
+    border: 3px solid #0056b3;
+    object-fit: cover;
+}
+
+/* Links below images */
+.totaramkids a {
+    text-decoration: none;
+    color: #0056b3;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Make sure items appear in one or two lines on smaller screens */
+@media screen and (max-width: 768px) {
+    .totaramSetContainer {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .totaramkids {
+        width: 15vmin;
+    }
+
+    .totaramkids img {
+        width: 8vmin;
+        height: 8vmin;
+    }
+}
+
+
